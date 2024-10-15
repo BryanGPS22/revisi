@@ -1,0 +1,37 @@
+{
+  "name": "fndigitalcode-web-agency",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "1.7.17",
+    "@supabase/supabase-js": "2.33.1",
+    "autoprefixer": "10.4.14",
+    "clsx": "2.1.0",
+    "date-fns": "2.30.0",
+    "eslint": "8.47.0",
+    "eslint-config-next": "13.4.13",
+    "flowbite-react": "^0.5.0",
+    "hamburger-react": "2.5.0",
+    "jotai": "2.6.0",
+    "mixpanel-browser": "2.48.1",
+    "next": "13.4.13",
+    "postcss": "8.4.27",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "7.45.4",
+    "react-icons": "^4.11.0",
+    "react-image-lightbox": "^5.1.4",
+    "react-scroll": "^1.9.0",
+    "react-slick": "0.29.0",
+    "slick-carousel": "1.8.1",
+    "tailwindcss": "3.3.3",
+    "uuid": "9.0.0"
+  },
+  "devDependencies": {}
+}

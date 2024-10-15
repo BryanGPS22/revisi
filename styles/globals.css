@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.btn {
+  @apply rounded-md px-6 py-3;
+}
+
+.blur-circle {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  filter: blur(100px);
+}
+
+.star {
+  clip-path: polygon(50% 0%,
+      61% 35%,
+      98% 35%,
+      68% 57%,
+      79% 91%,
+      50% 70%,
+      21% 91%,
+      32% 57%,
+      2% 35%,
+      39% 35%);
+}
+
+.slider {
+  position: relative;
+  height: 28vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  background-color: #bbb;
+  /* Dot color */
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  /* Transition effect on hover */
+}
+
+.dot.active {
+  background-color: #000;
+  /* Active dot color */
+}
+
+@media only screen and (max-width: 600px) {
+
+  /* Mobile-specific styles */
+  .slider {
+    height: 15vh;
+    /* Adjust the height for smaller screens */
+  }
+
+  .image {
+    border-radius: 5px;
+    /* Adjust the border-radius for smaller screens */
+  }
+
+    .dot {
+      
+      /* Adjust the width for smaller screens */
+      margin-top: 4px;
+      /* Adjust the margin for smaller screens */
+    }
+
+  /* You can add more mobile-specific styles here */
+}
+.text-xxs {
+  font-size: 0.6rem;
+  /* Adjust the font size as needed */
+}
+
+.modal-wrapper {
+  animation: modalFadeIn 0.3s ease-out;
+}
+
+@keyframes modalFadeIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.modal-wrapper.hide {
+  animation: modalFadeOut 0.3s ease-in;
+}
+
+@keyframes modalFadeOut {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+}
