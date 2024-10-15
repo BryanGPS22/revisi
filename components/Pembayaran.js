@@ -26,9 +26,45 @@ function Pricing() {
                 rel="noopener noreferrer"
                 className="px-2 py-1 bg-white text-sm rounded-md border flex items-center gap-1"
               >
-                <img
+                <Image
+                  width={40}
+                  height={40}
                   src="https://assets.jajangame.com/2022/11/16e7dcd394dd7377d913c296a3505929.png?auto_optimize=medium"
                   className="h-6 w-auto rounded-md"
+                  alt=""
+                />
+                <span>Butuh Bantuan? Klik Disini!</span>
+              </a>
+            </div>
+            <div className="grid grid-cols-1 gap-2 mt-2">
+              <a
+                href="https://api.whatsapp.com/send/?phone=6285601006218&text=Halo+saya+tertarik+dengan+produk+Anda&type=phone_number&app_absent=0"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-2 py-1 bg-white text-sm rounded-md border flex items-center gap-1"
+              >
+                <Image
+                  width={20}
+                  height={30}
+                  src="/images/Instagram_icon.png.webp"
+                  className="h-4 w-auto rounded-md mr-[3px] ml-1"
+                  alt=""
+                />
+                <span>Butuh Bantuan? Klik Disini!</span>
+              </a>
+            </div>
+            <div className="grid grid-cols-1 gap-2 mt-2">
+              <a
+                href="https://api.whatsapp.com/send/?phone=6285601006218&text=Halo+saya+tertarik+dengan+produk+Anda&type=phone_number&app_absent=0"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-2 py-1 bg-white text-sm rounded-md border flex items-center gap-1"
+              >
+                <Image
+                  width={20}
+                  height={30}
+                  src="/images/15707884.png"
+                  className="h-4 w-auto rounded-md mr-[3px] ml-1"
                   alt=""
                 />
                 <span>Butuh Bantuan? Klik Disini!</span>
