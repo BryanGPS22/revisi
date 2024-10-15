@@ -38,7 +38,7 @@ function Pricing() {
             </div>
             <div className="grid grid-cols-1 gap-2 mt-2">
               <a
-                href="https://api.whatsapp.com/send/?phone=6285601006218&text=Halo+saya+tertarik+dengan+produk+Anda&type=phone_number&app_absent=0"
+                href="https://www.instagram.com/hamdulkar_/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-2 py-1 bg-white text-sm rounded-md border flex items-center gap-1"
@@ -55,7 +55,7 @@ function Pricing() {
             </div>
             <div className="grid grid-cols-1 gap-2 mt-2">
               <a
-                href="https://api.whatsapp.com/send/?phone=6285601006218&text=Halo+saya+tertarik+dengan+produk+Anda&type=phone_number&app_absent=0"
+                href="https://www.facebook.com/profile.php?id=100079731814357"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-2 py-1 bg-white text-sm rounded-md border flex items-center gap-1"
